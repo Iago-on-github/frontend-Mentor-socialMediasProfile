@@ -54,11 +54,22 @@ h1 {
     margin: 12px 45px 12px 45px;
     padding: 12px;
     border-radius: 5px;
-    color: whitesmoke;
     font-size: 15px;
     font-weight: 500;
 }
 
+.botao_redes a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao_redes a:hover {
+    color: black;
+}
+
+.botao_redes:hover {
+    background-color: #aecf3e;
+}
 
 
 

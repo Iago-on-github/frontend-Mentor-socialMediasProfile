@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*320px — 480px: dispositivos móveis
+481px — 768px: iPads, tablets
+769px — 1024px: telas pequenas, laptops
+1025px — 1200px: desktops, telas grandes
+1201px e acima —  telas muito grandes, TVs*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    section {
+        background-color: #1F1F1F;
+        width: 330px;
+        height: 490px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    img {
+        border-radius: 50%;
+        height: 90px;
+        margin: 25px 0px 10px 0px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 1.5em;
+        padding: 6px 0px 6px 0px;
+    }
+
+    .botao_redes {
+        background-color: #333333;
+        margin: 9px 45px 9px 45px;
+        padding: 8px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
