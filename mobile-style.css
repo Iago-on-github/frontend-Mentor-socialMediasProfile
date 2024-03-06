@@ -15,18 +15,6 @@
         text-align: center;
     }
 
-    img {
-        border-radius: 50%;
-        height: 90px;
-        margin: 25px 0px 10px 0px;
-    }
-
-    h1 {
-        color: white;
-        font-size: 1.5em;
-        padding: 6px 0px 6px 0px;
-    }
-
     .botao_redes {
         background-color: #333333;
         margin: 9px 45px 9px 45px;
